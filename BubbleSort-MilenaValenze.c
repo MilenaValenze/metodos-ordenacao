@@ -1,5 +1,3 @@
-//Funcionando perfeitamente no meu prof. Qualquer coisa só chamar.
-//Aluna: Milena Valenze 1912479
 #include <stdio.h>
 #include <stdlib.h>
 #define tam 150
@@ -9,10 +7,10 @@ int  x, PosicaoMaior = tam;
 Organizer(int vet[]){
     int aux = 0;
     x = 0;
-    int y = 0; //Para comparar e todos os números
+    int y = 0; //Para comparar e todos os nÃºmeros
     int contador = 0;
     
-	while(y <= tam){//Para comparar só até o último número maior que ja foi comparado antes
+	while(y <= tam){//Para comparar sÃ³ atÃ© o Ãºltimo nÃºmero maior que ja foi comparado antes
 	
 		x = 0;
 	    while(x < (tam-1)){
@@ -29,7 +27,7 @@ Organizer(int vet[]){
 }
 
 main()
-{	//Números aleatórios gerados (duas opções. A primeira sem repetições, a segunda com repetições)
+{	//NÃºmeros aleatÃ³rios gerados (duas opÃ§Ãµes. A primeira sem repetiÃ§Ãµes, a segunda com repetiÃ§Ãµes)
 	//int vet[tam] = {83,7,19,130,191,31,126,182,90,25,71,117,164,125,160,91,112,118,137,49,114,75,187,63,174,38,34,169,52,175,70,47,166,101,172,148,107,62,177,178,136,102,138,26,14,56,163,103,104,77,139,151,128,173,119,180,89,93,50,135,59,150,6,33,146,113,84,43,27,133,60,96,40,188,94,29,127,142,17,80,10,155,181,197,159,87,190,54,192,73,44,48,72,193,13,36,9,46,74,105,32,78,12,106,158,23,65,199,189,35,198,170,185,120,176,8,30,85,51,41,64,141,61,5,82,95,18,2,157,156,22,11,24,37,15,76,122,140,45,195,196,98,183,154,179,3,16,4,143,55}
     int vet[tam] = {9,81,4,26,79,71,38,59,83,77,54,43,42,67,19,5,32,67,74,79,44,36,30,31,8,66,91,37,29,18,69,98,23,74,56,47,86,8,10,30,11,18,53,56,25,14,9,36,26,22,59,63,61,27,64,20,85,51,15,13,54,14,29,20,31,77,27,50,22,11,87,79,85,59,20,70,64,72,79,25,28,22,72,85,43,48,46,46,69,95,40,12,15,44,35,4,96,49,12,34,28,93,34,55,27,80,38,75,7,52,83,91,6,17,74,76,83,87,77,47,67,11,27,55,83,15,78,43,87,4,91,60,49,95,15,16,93,52,8,1,73,80,20,73,10,20,24,99,44,25};
 	Organizer(vet);
